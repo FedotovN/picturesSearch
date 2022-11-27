@@ -31,7 +31,7 @@ function deletePictures(){
 }
 function loadImages(data){
     for(let i = 0; i < data.results.length; i++){
-        let d = container.createElement("div")
+        let d = doc.createElement("div")
         let s = d.style
         d.className = "img"
         s.backgroundImage = 'url('+data[i].urls.raw;+")"
