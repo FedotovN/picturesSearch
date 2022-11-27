@@ -5,6 +5,7 @@ const doc = document,
 inputBar.addEventListener(('keydown'), e=>{
     if(e.key == "Enter"){
         fillContainer(inputBar.value)
+        console.log("yapyy!")
     }
 })
 
