@@ -91,7 +91,9 @@ input:focus::placeholder{
 .img{
     margin: 15px;
     margin-left: 45px;
-    height: 340px;
-    width: 315px;
+    height: 200px;
+    width: 380px;
+    background-position: 50% 50%;
+    background-size: cover;
     border: 1px solid #1f1d24;
 }
