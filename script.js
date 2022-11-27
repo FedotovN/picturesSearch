@@ -38,7 +38,7 @@ function loadImages(data){
         d.addEventListener(("dblclick"), e=>{
             window.open(data.results.links.download, "_blank")
         })
-        container.appendChild(d)
+        container.appendChild(d) 
     }
 
 }
