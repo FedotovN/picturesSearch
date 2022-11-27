@@ -11,7 +11,7 @@ inputBar.addEventListener(('keydown'), e=>{
 
 function fillContainer(req){
     deletePictures()
-    const url = 'https://api.unsplash.com/search/photos?query='+req+'&per_page=12&client_id=qmpjS21eSX5aNbUiKxmhc_LEe0nMhdlhL-32uqeuS7g'
+    const url = 'https://api.unsplash.com/search/photos?query='+req+'&per_page=6&client_id=qmpjS21eSX5aNbUiKxmhc_LEe0nMhdlhL-32uqeuS7g'
     fetch(url)
   .then(response => {
     if (!response.ok) throw Error(response.statusText);
