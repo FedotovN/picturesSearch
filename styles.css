@@ -45,7 +45,6 @@ main{
     /*opacity: 0;*/
     transition: .3s;
     width: 90%;
-    border: 1px solid #2f2b36;
 }
 footer{
     width: 100%;
@@ -89,8 +88,6 @@ input:focus::placeholder{
     color: transparent;
 }
 .img{
-    margin: 15px;
-    margin-left: 45px;
     height: 200px;
     width: 380px;
     background-position: 50% 50%;
