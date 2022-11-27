@@ -34,9 +34,9 @@ function loadImages(data){
         let d = doc.createElement("div")
         let s = d.style
         d.className = "img"
-        s.backgroundImage = 'url('+data[i].urls.raw;+")"
+        s.backgroundImage = 'url('+data.results[i].urls.raw;+")"
         d.addEventListener(("dblclick"), e=>{
-            window.open(data.results.links.download, "_blank")
+            window.open(data.results[i].links.download, "_blank")
         })
         container.appendChild(d) 
     }
