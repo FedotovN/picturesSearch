@@ -94,3 +94,9 @@ input:focus::placeholder{
     background-size: cover;
     border: 1px solid #1f1d24;
 }
+@media(max-width: 700px){
+    footer{
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+}
